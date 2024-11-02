@@ -9,7 +9,7 @@ const db = new sqlite3.Database(
   sqlite3.OPEN_READWRITE,
   (err) => {
     if (err) return console.error(err.message);
-    console.log("connection successfully");
+    console.log("connected successfully");
   }
 );
 
